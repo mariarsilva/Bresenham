@@ -8,7 +8,7 @@ Como funciona o algoritmo de Bresenham?
 Iniciamos o processo fazendo a definição das variáveis. Para simplificar, utilizaremos uma estrutura para definir as coordenadas e outra para as cores RGBA.
 ________________________________________
 Vantagens: 
-O algoritmo de Brsenham tem como uma de suas vantagens a sua "economia" em relação à seus predecessores, pelo fato de não fazer uso de operações de maior custo, como multiplicações e divisões, além de não fazer uso de variáveis de ponto flutuante.
+O algoritmo de Brsenham tem como uma de suas vantagens a sua "economia" em relação à seus predecessores, pelo fato de não fazer uso de operações de maior custo, como multiplicações e divisões, além de não fazer uso de variáveis de ponto flutuante. O algoritmo parte do princípio de que a inclinação da reta sempre está entre 0 e 1.
 
 ________________________________________
 
