@@ -13,6 +13,7 @@ O algoritmo de Brsenham tem como uma de suas vantagens a sua "economia" em rela�
 ________________________________________
 
 Foram realizadas as seguintes funções:
+
 PutPixel(int x, int y)
 
 DrawLine(int x0, int y0, int x1, int y1)
