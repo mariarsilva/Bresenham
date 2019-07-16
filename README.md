@@ -12,12 +12,13 @@ O algoritmo de Brsenham tem como uma de suas vantagens a sua "economia" em rela�
 
 ________________________________________
 
-Funções determinantes para a criação dos pontos linhas e triângulos:
-
 Foram realizadas as seguintes funções:
-PutPixel(int x, int y) - 
-DrawLine(int x0, int y0, int x1, int y1) - 
-DrawTriangle() - 
+PutPixel(int x, int y)
+
+DrawLine(int x0, int y0, int x1, int y1)
+
+DrawTriangle()
+
 
 Dificuldades: não foi obtido sucesso em fazer linhas inclinadas fora da origem, optando por permanecê-las iniciando na origem.
 
