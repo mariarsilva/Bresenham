@@ -19,4 +19,9 @@ PutPixel(int x, int y) -
 DrawLine(int x0, int y0, int x1, int y1) - 
 DrawTriangle() - 
 
+Dificuldades: não foi obtido sucesso em fazer linhas inclinadas fora da origem, optando por permanecê-las iniciando na origem.
+
+Resultado:
+![Screenshot](/home/ozu/01.png)
+
 
