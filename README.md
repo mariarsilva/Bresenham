@@ -13,7 +13,12 @@ Teremos, também, as variáveis auxiliares aux1 e aux2, que receberão os seguin
 aux1 = 2*dy;
 aux2 = 2*dy-2dx;
 
+Partindo-se do ponto inicial, o algoritmo irá verificar as possibilidades de decisão para ver qual a melhor possibilidade do próximo ponto chegar ao ponto final. Será feito uso de um parâmetro de decisão chamado "prm":
 
+prm = 2*dy-dx;
+
+Existem três possibilidades: do valor de "prm" ser zero, positivo ou negativo. Em  caso de valor positivo ou zero, o ponto x será atualizado para x+1 e o ponto y para y+1. Caso seja negativo, altera-se apenas o x, que ficará x+1.
+Esse processo será repetido até que seja atingido o ponto (x1,y1).
 ________________________________________
 
 Vantagens: 
