@@ -1,15 +1,15 @@
 # Bresenham's Line Algorithm
 Discente: 11409513
 
-O seguinte texto tem como objetivo apresentar um memorial descritivo das atividades relacionadas à criação de uma forma triangular através da implementação e rasterização de pontos e linhas. Para auxiliar esse procedimento será feito uso do algoritmo de Bresenham, que utiliza-se ................
+O seguinte texto tem como objetivo apresentar um memorial descritivo das atividades relacionadas à criação de uma forma triangular através da implementação e rasterização de pontos e linhas. Para auxiliar esse procedimento será feito uso do algoritmo de Bresenham.
 O código foi escrito em C++ baseando-se no framework disponibilizado pelo docente da disciplina de Introdução à Computação Gráfica.
 
 Como funciona o algoritmo de Bresenham?
 Iniciamos o processo fazendo a definição das variáveis. Para simplificar, utilizaremos uma estrutura para definir as coordenadas e outra para as cores RGBA.
 ________________________________________
+
 Vantagens: 
 O algoritmo de Brsenham tem como uma de suas vantagens a sua "economia" em relação à seus predecessores, pelo fato de não fazer uso de operações de maior custo, como multiplicações e divisões, além de não fazer uso de variáveis de ponto flutuante. O algoritmo parte do princípio de que a inclinação da reta sempre está entre 0 e 1.
-
 ________________________________________
 
 Foram realizadas as seguintes funções:
