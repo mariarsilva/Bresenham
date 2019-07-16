@@ -1,5 +1,5 @@
 # Bresenham's Line Algorithm
-Discente: Maria Raquel Alves da Silva
+Discente: 11409513
 
 O seguinte texto tem como objetivo apresentar um memorial descritivo das atividades relacionadas à criação de uma forma triangular através da implementação e rasterização de pontos e linhas. Para auxiliar esse procedimento será feito uso do algoritmo de Bresenham, que utiliza-se ................
 O código foi escrito em C++ baseando-se no framework disponibilizado pelo docente da disciplina de Introdução à Computação Gráfica.
