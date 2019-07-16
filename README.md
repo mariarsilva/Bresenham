@@ -5,7 +5,15 @@ O seguinte texto tem como objetivo apresentar um memorial descritivo das ativida
 O código foi escrito em C++ baseando-se no framework disponibilizado pelo docente da disciplina de Introdução à Computação Gráfica.
 
 Como funciona o algoritmo de Bresenham?
-Iniciamos o processo fazendo a definição das variáveis. Para simplificar, utilizaremos uma estrutura para definir as coordenadas e outra para as cores RGBA.
+Iniciamos o processo fazendo a definição das variáveis. Para os parâmetros de entrada recebidos (x0,y0, x1, y1) calculamos dois valores inteiros que serão chamados de dx e dy, que serão:
+dx = x1-x0;
+dy = y1-y0;
+
+Teremos, também, as variáveis auxiliares aux1 e aux2, que receberão os seguintes valores:
+aux1 = 2*dy;
+aux2 = 2*dy-2dx;
+
+
 ________________________________________
 
 Vantagens: 
@@ -20,8 +28,8 @@ DrawLine(int x0, int y0, int x1, int y1)
 
 DrawTriangle()
 
-
 Dificuldades: não foi obtido sucesso em fazer linhas inclinadas fora da origem, optando por permanecê-las iniciando na origem.
+As cores ficaram por padrão as mesmas, independente da linha. A escolha foi feita devido ao fato de não ter sido bem sucedida a tentativa de fazer as linhas com o parâmetro de escolha de cor habilitado.
 
 Resultado:
 
