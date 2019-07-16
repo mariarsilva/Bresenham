@@ -22,6 +22,6 @@ DrawTriangle() -
 Dificuldades: não foi obtido sucesso em fazer linhas inclinadas fora da origem, optando por permanecê-las iniciando na origem.
 
 Resultado:
-![Screenshot](/home/ozu/01.png)
+![Screenshot](https://imgur.com/a/EpIJbii)
 
 
